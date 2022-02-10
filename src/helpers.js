@@ -5,6 +5,7 @@ const choice = (items) => {
 }
 
 const remove = (items, item) => {
+    
     for (let each of items) {
         if(each === item) {
             return items.filter(i => i !== each);
